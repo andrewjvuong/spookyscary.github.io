@@ -1,0 +1,19 @@
+.gameover{
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name:bl;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes bl{
+  0%{
+  background-color:white
+  }
+  100%{
+  color:black;
+  background-color:black;
+  }
+}
